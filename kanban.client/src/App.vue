@@ -6,8 +6,10 @@
     <router-view />
   </main>
   <footer>
-    <div class="bg-dark text-light text-center p-4">
-      Made with 💖 by CodeWorks
+    <div class="bg-details text-light text-center p-4">
+      Can You Do The <i class="fas fa-spray-can">
+        BAN
+      </i>??
     </div>
   </footer>
 </template>
@@ -26,5 +28,9 @@ export default {
 </script>
 <style lang="scss">
 @import "./assets/scss/main.scss";
+.bg-details{
+background-color: #07000d;
+background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+}
 
 </style>
